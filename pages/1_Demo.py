@@ -3,6 +3,9 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
+st.sidebar.info('Contact')
+st.sidebar.markdown('[Twitter](https://twitter.com/giswqs)')
+
 col1, col2 = st.columns([7, 3])
 
 options = list(leafmap.basemaps.keys())
